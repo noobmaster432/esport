@@ -1,0 +1,376 @@
+<%- include("header") -%>
+
+<!-- Header -->
+<div class="home">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid header-container">
+      <a class="navbar-brand" href="/">eSports</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="/navbarColor02"
+        aria-controls="navbarColor02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarColor02"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/"
+                ><i class="fa-solid fa-house"></i> Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about"
+                ><i class="fa-solid fa-user"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact"
+                ><i class="fa-solid fa-message"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="top-carousel">
+  <div
+    id="carouselExampleControls"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="images/demo-img.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="images/demo-img.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="images/demo-img.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="/carouselExampleControls"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="/carouselExampleControls"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Notice Board scrolling Not Completed -->
+<!-- Do "As You Like it" Backend Team  -->
+<div class="notifs">
+  <div class="container-fluid">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-12 col-lg-6 col-xl-6">
+          <div>
+            <span>List 1</span>
+            <ul>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6 col-xl-6">
+          <div>
+            <span>List 2</span>
+            <ul>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+              <li><a href="/">XYZ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About US -->
+<div class="about" id="about">
+  <div class="container-fluid">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-12 col-lg-6 col-xl-6">
+          <div class="text-center">
+            <img
+              src="images/crop-circle.png"
+              class="rounded"
+              alt="about-amg"
+            />
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6 col-xl-6 d-flex align-items-center">
+          <div>
+            <h1>eSports India</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              quis euismod diam. Proin faucibus tristique dignissim. Integer
+              eget pharetra tortor. Suspendisse imperdiet mi sit amet ante
+              tempor finibus. Integer vestibulum ultricies viverra. Integer id
+              sem ex. Mauris ultricies suscipit mauris.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vision text-center pt-2 p-5">
+  <h1>Our Vision</h1>
+  <p>
+    Suspendisse sed pretium ligula. Proin imperdiet cursus tortor, non finibus
+    ex lacinia at. Pellentesque habitant morbi tristique senectus et netus et
+    malesuada fames ac turpis egestas. Integer at egestas arcu, vel porttitor
+    nisl. Pellentesque pulvinar enim felis, vitae feugiat augue malesuada eu.
+    Pellentesque a lacus ligula. Integer id ipsum id mauris finibus varius eu
+    vitae justo.
+  </p>
+</div>
+
+<div class="team">
+  <div class="text-center">
+    <h1>Our Team</h1>
+  </div>
+
+  <div class="team-members">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <div class="container d-flex justify-content-center">
+            <img
+              src="images/demo-team-1.gif"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Name</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="container d-flex justify-content-center">
+            <img
+              src="images/demo-team-1.gif"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Name</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="container d-flex justify-content-center">
+            <img
+              src="images/demo-team-1.gif"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Name</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vision text-center pt-2 p-5">
+  <h1>Right To Information</h1>
+  <p>
+    Suspendisse sed pretium ligula. Proin imperdiet cursus tortor, non finibus
+    ex lacinia at. Pellentesque habitant morbi tristique senectus et netus et
+    malesuada fames ac turpis egestas. Integer at egestas arcu, vel porttitor
+    nisl. Pellentesque pulvinar enim felis, vitae feugiat augue malesuada eu.
+    Pellentesque a lacus ligula. Integer id ipsum id mauris finibus varius eu
+    vitae justo.
+  </p>
+</div>
+
+<div class="vision text-center pt-2 p-5 d-flex align-items-center">
+  <div class="p-5">
+    <h1>Statement by Us</h1>
+    <p>
+      Suspendisse sed pretium ligula. Proin imperdiet cursus tortor, non finibus
+      ex lacinia at. Pellentesque habitant morbi tristique senectus et netus et
+      malesuada fames ac turpis egestas. Integer at egestas arcu, vel porttitor
+      nisl. Pellentesque pulvinar enim felis, vitae feugiat augue malesuada eu.
+      Pellentesque a lacus ligula. Integer id ipsum id mauris finibus varius eu
+      vitae justo.
+    </p>
+  </div>
+  <img
+    src="images/demo-team-1.gif"
+    class="card-img-top p-3"
+    style="height: 300px; width: 300px"
+    alt="..."
+  />
+</div>
+
+<!-- Contact US -->
+<div class="contact container-fluid pb-5" id="contact">
+  <div class="text-center pt-5 pb-3">
+    <h1>Contact Us!</h1>
+  </div>
+  
+  <form action="/" method="post">
+  <div class="mb-3">
+    
+    <label for="exampleFormControlInput1" class="form-label"
+      >Note:</label
+    >
+    <textarea
+      class="form-control"
+      placeholder="Your Note Here..."
+      id="exampleFormControlTextarea1"
+      name="note"
+      rows="3"
+    ></textarea>
+  </div>
+  <div class="mb-3">
+    
+    <label for="exampleFormControlInput1" class="form-label"
+      >Name:</label
+    >
+    <input
+      type="text"
+      class="form-control"
+      id="exampleFormControlInput1"
+      placeholder="Your Name here"
+      name="name"
+    />
+  </div>
+  <div class="mb-3">
+    
+    <label for="exampleFormControlInput1" class="form-label"
+      >Gender:</label
+    >
+    <select class="form-select" name="gender">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select>
+  </div>
+  
+  <div class="mb-3">
+    
+    <label for="exampleFormControlInput1" class="form-label"
+      >Phone number:</label
+    >
+    <input
+      type="number"
+      class="form-control"
+      id="exampleFormControlInput1"
+      placeholder="xxxxxxxxxx"
+      name="phone"
+    />
+  </div>
+  <div class="mb-3">
+    
+    <label for="exampleFormControlInput1" class="form-label"
+      >E-mail:</label
+    >
+    <input
+      type="email"
+      class="form-control"
+      id="exampleFormControlInput1"
+      placeholder="username@gmail.com"
+      name="email"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+    <textarea
+      class="form-control"
+      placeholder="Your Mesage Here..."
+      id="exampleFormControlTextarea1"
+      rows="3"
+      name="description"
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+<!-- Social -->
+<div class="social container-fluid pt-5 pb-5">
+  <div class="text-center">
+    <h1>Social Media</h1>
+    <div class="ico">
+      <a style="text-decoration: none" href="/"
+        ><i class="fa-brands fa-3x fa-square-facebook"></i
+      ></a>
+      <a href="/"><i class="fa-brands fa-3x fa-square-instagram"></i></a>
+      <a href="/"><i class="fa-brands fa-3x fa-square-twitter"></i></a>
+      <a href="/"><i class="fa-brands fa-3x fa-linkedin"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer  -->
+<div class="footer">
+  <div class="text-center">Copyright&copy;2022 eSports</div>
+</div>
+
+<%- include("footer") -%>

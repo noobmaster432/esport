@@ -1,0 +1,95 @@
+
+
+.header-container{
+padding: 0 50px;
+}
+
+.top-carousel img{
+height: 300px;
+}
+.top-carousel{
+    border-color: #949194;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-style: solid;
+}
+
+.notifs{
+    height:auto;
+    background-color:black;
+    padding:20px 10px;
+    display: fluid;
+    border-color: #949194;
+    border-bottom: 2px;
+    /* border-top: 5px; */
+    border-style: solid;
+}
+
+.about{
+    /* padding: 0 5px; */
+    border-color: #949194;
+    border-bottom: 2px;
+    /* border-top: 5px; */
+    border-style: solid;
+}
+
+.about img{
+    padding: 30px 0 ;
+}
+
+.about h1{
+    padding: 10px 0;
+}
+
+
+.vision{
+    /* padding: 0 5px; */
+    border-color: #949194;
+    border-bottom: 2px;
+    
+    border-style: solid;
+}
+
+.team{
+    padding: 20px 0;
+    height: auto;
+    border-color: #949194;
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+.team img{
+    height: 200px;
+}
+
+.team-members{
+    padding: 0px 20px;
+    
+}
+
+.team-members img{
+   
+    height: 200px;
+    width: 200px;
+}
+
+.contact{
+    padding: 10px 20%;
+
+    height: auto;
+    border-color: #949194;
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+.social{
+    padding: 20px 0;
+    height: auto;
+    border-color: #949194;
+    border-bottom: 4px;
+    border-style: solid;
+}
+
+i{
+    padding: 10px;
+}
